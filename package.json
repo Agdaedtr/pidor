@@ -1,0 +1,16 @@
+{
+  "name": "koshki-2048",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Кошачье 2048 — мобильная игра про котиков (Capacitor + Android APK)",
+  "scripts": {
+    "build:android": "npx cap add android && npx cap sync android && cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}
